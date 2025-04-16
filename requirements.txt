@@ -1,0 +1,15 @@
+# APT模拟系统核心依赖
+Flask==3.0.0             # 轻量级Web框架（C2服务器）
+psutil==5.9.5            # 系统资源监控
+python-nmap==0.7.1       # 网络扫描模块
+gpiozero==1.6.2          # GPIO硬件控制
+colorama==0.4.6          # 终端颜色输出
+texttable==1.7.0         # 表格格式化显示
+pycryptodome==3.18.0     # 加密算法支持
+requests==2.31.0         # HTTP通信模块
+python-dotenv==1.0.0     # 环境变量管理
+
+# 可选依赖（特定功能需要）
+pyserial==3.5            # 串口通信（硬件扩展）
+scapy==2.5.0             # 高级网络包操作
+pyOpenSSL==23.2.0        # SSL/TLS加密支持
